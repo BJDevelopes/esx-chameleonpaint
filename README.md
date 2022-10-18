@@ -13,6 +13,9 @@ SOURCE: https://github.com/JoeSzymkowiczFiveM/qb-chameleonpaint
 - Mythic Prog_bar [https://github.com/HalCroves/mythic_progbar]
 - For the colors to work you must be in GameBuild 2545 or 2699
 
+## Please Note
+SQL file was only created for ESX with weight system, others using limit must modify it but it will work if done correctly
+
 ## Preview
 https://streamable.com/oes8d9
 
