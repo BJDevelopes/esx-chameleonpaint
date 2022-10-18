@@ -5,10 +5,12 @@ The meta and texture files found in the `data` and `stream` folders must be pres
 
 ## Credit
 - [MrZedo](https://github.com/MrZedo/Cameleon-Color) Used information and assets found in this repo to implement the primary effect.
+- I TAKE NO CREDIT FOR CREATING THIS, I ONLY CONVERTED IT TO ESX
+SOURCE: https://github.com/JoeSzymkowiczFiveM/qb-chameleonpaint
 
 ## Dependencies
-- [qb-core](https://github.com/qbcore-framework/qb-core)
-- For the colors to work you must be in GameBuild 2545
+- ESX Framework
+- For the colors to work you must be in GameBuild 2545 or 2699
 
 ## Preview
 https://streamable.com/oes8d9
@@ -36,6 +38,3 @@ https://streamable.com/oes8d9
 ## Discord
 https://www.discord.gg/projectsloth
 
-## Credits
-I TAKE NO CREDIT FOR CREATING THIS, I ONLY CONVERTED IT TO ESX
-SOURCE: https://github.com/JoeSzymkowiczFiveM/qb-chameleonpaint
