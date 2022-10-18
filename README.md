@@ -18,7 +18,3 @@ SQL file was only created for ESX with weight system, others using limit must mo
 
 ## Preview
 https://streamable.com/oes8d9
-
-## Discord
-https://www.discord.gg/projectsloth
-
