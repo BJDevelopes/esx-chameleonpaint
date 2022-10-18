@@ -9,7 +9,8 @@ The meta and texture files found in the `data` and `stream` folders must be pres
 SOURCE: https://github.com/JoeSzymkowiczFiveM/qb-chameleonpaint
 
 ## Dependencies
-- ESX Framework
+- ESX Framework [https://github.com/esx-framework]
+- Mythic Prog_bar [https://github.com/HalCroves/mythic_progbar]
 - For the colors to work you must be in GameBuild 2545 or 2699
 
 ## Preview
