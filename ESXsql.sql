@@ -1,0 +1,16 @@
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_161', 'Monochrome', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_162', 'Night & Day', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_163', 'The Verlierer', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_164', 'Sprunk Extreme', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_165', 'Vice City', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_166', 'Synthwave Nights', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_167', 'Four Seasons', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_168', 'Maisonette 9 Throwback', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_169', 'Bubblegum', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_170', 'Full Rainbow', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_171', 'Sunset', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_172', 'The Seven', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_173', 'Kamen Rider', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_174', 'Chromatic Aberration', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_175', 'It\'s Christmas!', 1, 0, 0);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES ('chameleonpaint_176', 'Temperature', 1, 0, 0);
