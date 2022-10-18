@@ -70,7 +70,7 @@ AddEventHandler('chameleonpaint:sprayVehicle', function(name, index)
                     if not status then
                         -- Do Something If Event Wasn't Cancelled
                         local pedCoords = GetEntityCoords(ped)
-                        local vehicle = GetClosestVehicle(pedCoords)
+                        local vehicle = ESX.Game.GetClosestVehicle(pedCoords)
                         SetVehicleModKit(vehicle, 0)
                         SetVehicleColours(vehicle, Config.ChameleonColors[index][gameBuild], Config.ChameleonColors[index][gameBuild])
                         DeleteObject(prop)
