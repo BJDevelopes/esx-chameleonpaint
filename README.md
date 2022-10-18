@@ -35,3 +35,6 @@ https://streamable.com/oes8d9
 
 ## Discord
 https://www.discord.gg/projectsloth
+
+## Credits
+I TAKE NO CREDIT FOR CREATING THIS, I ONLY CONVERTED IT TO ESX
