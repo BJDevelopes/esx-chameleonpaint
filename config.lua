@@ -1,5 +1,10 @@
 Config = {}
 
+Config.JobOnly = false -- Set this to true to restrict item usage only to people who have a specific job
+Config.JobName = "mechanic" -- name of job
+
+Config.GarageSave = true -- Enable Saving to Garage
+
 Config.ChameleonColors = {
 	['161'] = {
 		[2545] = 161,
