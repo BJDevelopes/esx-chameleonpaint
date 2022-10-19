@@ -10,7 +10,7 @@ The meta and texture files found in the `data` and `stream` folders must be pres
 
 ## Credit
 - [MrZedo](https://github.com/MrZedo/Cameleon-Color) Used information and assets found in this repo to implement the primary effect.
-- [JoeSzymkowiczFiveM] (https://github.com/JoeSzymkowiczFiveM/qb-chameleonpaint) Original Code Source, converted QB to ESX + added some feature
+- [JoeSzymkowiczFiveM](https://github.com/JoeSzymkowiczFiveM/qb-chameleonpaint) Original Code Source, converted QB to ESX + added some feature
 
 ## Dependencies
 - ESX Framework [https://github.com/esx-framework]
