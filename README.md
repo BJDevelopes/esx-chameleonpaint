@@ -3,6 +3,10 @@ A simple script to use an item to apply chameleon paint to vehicles in fivem. I 
 
 The meta and texture files found in the `data` and `stream` folders must be present for this to work.
 
+## Changes made by me
+- Ability to set item restriction to certain job (e.g mechanic) you can also disable this, see Config
+- Ability to choose if you want the paint to save into garage, See Config
+
 ## Credit
 - [MrZedo](https://github.com/MrZedo/Cameleon-Color) Used information and assets found in this repo to implement the primary effect.
 - I TAKE NO CREDIT FOR CREATING THIS, I ONLY CONVERTED IT TO ESX,
@@ -11,6 +15,7 @@ SOURCE: https://github.com/JoeSzymkowiczFiveM/qb-chameleonpaint
 ## Dependencies
 - ESX Framework [https://github.com/esx-framework]
 - Mythic Progbar [https://github.com/HalCroves/mythic_progbar]
+- OxMySQL [https://github.com/overextended/oxmysql] 
 - For the colors to work you must be in GameBuild 2545 or 2699
 
 ## Please Note
