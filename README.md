@@ -6,7 +6,7 @@ The meta and texture files found in the `data` and `stream` folders must be pres
 ## Changes made by me
 - Ability to set item restriction to certain job (e.g mechanic) you can also disable this, see Config
 - Ability to choose if you want the paint to save into garage, See Config
-**Please Note:** SQL file was only created for ESX with weight system, others using limit must modify it but it will work if done correctly
+- **Please Note:** SQL file was only created for ESX with weight system, others using limit must modify it but it will work if done correctly
 
 ## Credit
 - [MrZedo](https://github.com/MrZedo/Cameleon-Color) Used information and assets found in this repo to implement the primary effect.
