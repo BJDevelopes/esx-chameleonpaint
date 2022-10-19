@@ -6,6 +6,7 @@ The meta and texture files found in the `data` and `stream` folders must be pres
 ## Changes made by me
 - Ability to set item restriction to certain job (e.g mechanic) you can also disable this, see Config
 - Ability to choose if you want the paint to save into garage, See Config
+**Please Note:** SQL file was only created for ESX with weight system, others using limit must modify it but it will work if done correctly
 
 ## Credit
 - [MrZedo](https://github.com/MrZedo/Cameleon-Color) Used information and assets found in this repo to implement the primary effect.
@@ -17,9 +18,6 @@ SOURCE: https://github.com/JoeSzymkowiczFiveM/qb-chameleonpaint
 - Mythic Progbar [https://github.com/HalCroves/mythic_progbar]
 - OxMySQL [https://github.com/overextended/oxmysql] 
 - For the colors to work you must be in GameBuild 2545 or 2699
-
-## Please Note
-SQL file was only created for ESX with weight system, others using limit must modify it but it will work if done correctly
 
 ## Preview
 https://streamable.com/oes8d9
