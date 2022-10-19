@@ -71,8 +71,10 @@ AddEventHandler('chameleonpaint:sprayVehicle', function(name, index)
                         -- Do Something If Event Wasn't Cancelled
                         local pedCoords = GetEntityCoords(ped)
                         local vehicle = ESX.Game.GetClosestVehicle(pedCoords)
-                        SetVehicleModKit(vehicle, 0)
                         SetVehicleColours(vehicle, Config.ChameleonColors[index][gameBuild], Config.ChameleonColors[index][gameBuild])
+                        if Config.GarageSave then
+                            savePaint()
+                        end
                         DeleteObject(prop)
                         ClearPedTasks(ped)
                     end
@@ -81,3 +83,69 @@ AddEventHandler('chameleonpaint:sprayVehicle', function(name, index)
         end)
     end
 end)
+
+function GetCurrentXenonColour()
+    local plyPed = PlayerPedId()
+    local plyVeh = GetVehiclePedIsIn(plyPed, false)
+
+    return GetVehicleHeadlightsColour(plyVeh)
+end
+
+
+function savePaint()
+    local plyPed = PlayerPedId()
+    local pedCoords = GetEntityCoords(ped)
+    local veh = ESX.Game.GetClosestVehicle(pedCoords)
+    local vehicleMods = {
+        neon = {},
+        colors = {},
+        extracolors = {},
+        dashColour = -1,
+        interColour = -1,
+        lights = {},
+        tint = GetVehicleWindowTint(veh),
+        wheeltype = GetVehicleWheelType(veh),
+        platestyle = GetVehicleNumberPlateTextIndex(veh),
+        mods = {},
+        smokecolor = {},
+        xenonColor = -1,
+        oldLiveries = 24,
+        extras = {}
+    }
+
+    vehicleMods.xenonColor = GetCurrentXenonColour(veh)
+    vehicleMods.lights[1], vehicleMods.lights[2], vehicleMods.lights[3] = GetVehicleNeonLightsColour(veh)
+    vehicleMods.colors[1], vehicleMods.colors[2] = GetVehicleColours(veh)
+    vehicleMods.extracolors[1], vehicleMods.extracolors[2] = GetVehicleExtraColours(veh)
+    vehicleMods.smokecolor[1], vehicleMods.smokecolor[2], vehicleMods.smokecolor[3] = GetVehicleTyreSmokeColor(veh)
+    vehicleMods.dashColour = GetVehicleInteriorColour(veh)
+    vehicleMods.interColour = GetVehicleDashboardColour(veh)
+    vehicleMods.oldLiveries = GetVehicleLivery(veh)
+
+    for i = 0, 3 do
+        vehicleMods.neon[i] = IsVehicleNeonLightEnabled(veh, i)
+    end
+
+    for i = 0,16 do
+        vehicleMods.mods[i] = GetVehicleMod(veh,i)
+    end
+
+    for i = 17, 22 do
+        vehicleMods.mods[i] = IsToggleModOn(veh, i)
+    end
+
+    for i = 23, 48 do
+        vehicleMods.mods[i] = GetVehicleMod(veh,i)
+    end
+
+    for i = 1, 12 do
+        local ison = IsVehicleExtraTurnedOn(veh, i)
+        if 1 == tonumber(ison) then
+            vehicleMods.extras[i] = 1
+        else
+            vehicleMods.extras[i] = 0
+        end
+    end
+    local myCar = ESX.Game.GetVehicleProperties(veh)
+    TriggerServerEvent('chameleonpaint:updateVehicle', myCar)
+end
