@@ -12,9 +12,11 @@ client_scripts {
 }
 
 server_scripts {
-	'server/main.lua',
+    'server/main.lua',
     '@es_extended/locale.lua',
     '@oxmysql/lib/MySQL.lua',
+    --'@mysql-async/lib/MySQL.lua',
+    --'@mysql-async/async.lua',
 }
 
 files {
