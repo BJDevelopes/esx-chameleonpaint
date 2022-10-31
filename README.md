@@ -14,9 +14,9 @@ The meta and texture files found in the `data` and `stream` folders must be pres
 - [JoeSzymkowiczFiveM](https://github.com/JoeSzymkowiczFiveM/qb-chameleonpaint) Original Code Source, converted QB to ESX + added some feature
 
 ## Dependencies
-- ESX Framework [https://github.com/esx-framework]
-- Mythic Progbar [https://github.com/HalCroves/mythic_progbar]
-- OxMySQL [https://github.com/overextended/oxmysql] or MySQLAsync [https://github.com/brouznouf/fivem-mysql-async]
+- [ESX Framework](https://github.com/esx-framework)
+- [Mythic Progbar](https://github.com/HalCroves/mythic_progbar)
+- [OxMySQL](https://github.com/overextended/oxmysql) or [MySQLAsync](https://github.com/brouznouf/fivem-mysql-async)
 - For the colors to work you must be in GameBuild 2545 or 2699
 
 ## Preview
